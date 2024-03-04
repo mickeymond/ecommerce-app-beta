@@ -1,3 +1,4 @@
+import Footer from "../../components/footer";
 import Navbar from "../../components/navbar";
 
 export default function Catalogue() {
@@ -5,6 +6,7 @@ export default function Catalogue() {
         <>
             <Navbar />
             <p>Catalogue</p>
+            <Footer />
         </>
     );
 }
