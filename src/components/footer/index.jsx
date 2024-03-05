@@ -1,4 +1,7 @@
-
 export default function Footer() {
-    return <p>Footer code goes here</p>
+  return (
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  );
 }
