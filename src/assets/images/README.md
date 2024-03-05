@@ -1,0 +1,1 @@
+All images goes here in SVG format preferably

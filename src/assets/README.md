@@ -1,0 +1,1 @@
+All assets like images, videos, etc should go into their separate folders.
