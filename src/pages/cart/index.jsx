@@ -1,20 +1,20 @@
 import Footer from "../../components/footer";
 import Navbar from "../../components/navbar";
-import { FaClock } from "react-icons/fa";
 import React, { useState } from "react";
+import { FaClock } from "react-icons/fa";
 
 export default function Cart() {
   const [cartItems, setCartItems] = useState([
     {
       id: 1,
-      name: "Falari",
+      name: "BodyCon By Princess",
       price: 90,
       quantity: 1,
       description:
-        "Falari 4-Pack Men's Boxer Underwear 100% Cotton,Medium size.",
+        "Neck Sleeveless Body Con Mini Dress 100% Cotton,Medium size,Orange.",
       shipping: "2-3 weeks",
       image:
-        "https://i5.walmartimages.com/seo/Falari-4-Pack-Men-s-Boxer-Underwear-100-Cotton-Assorted-01-Medium_3867ee26-1bf4-424d-95c5-7e2e72b08357_1.8b5b1202c230d5db5752db324d821556.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+        "https://www.theoneapparel.com/cdn/shop/products/O1CN01NaX05T1XtLMTzSWKA__4080992981-0-cib_1024x1024.jpg?v=1676416197",
     },
     {
       id: 2,
