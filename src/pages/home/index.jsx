@@ -1,5 +1,6 @@
 import Footer from "../../components/footer";
 import Navbar from "../../components/navbar";
+import { FaShoppingCart } from 'react-icons/fa'; // Import the shopping cart icon from react icons library.
 // import Catalogue from "../catalogue";
 
 export default function Home() {
@@ -22,7 +23,8 @@ export default function Home() {
           }}
         >
           <h1 style={{ color: "white", textAlign: "center", fontSize: "4vw" }}>
-           Welcome to Beta Shopping Mall :)
+           Welcome to Beta Shopping Mall 
+           <FaShoppingCart style={{marginLeft: "300px" }} /> {/* Shopping cart icon */}
           </h1>
         </div>
       </div>
