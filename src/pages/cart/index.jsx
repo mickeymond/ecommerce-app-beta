@@ -1,6 +1,7 @@
 import Footer from "../../components/footer";
 import Navbar from "../../components/navbar";
 import { useState, useEffect, useCallback } from "react";
+import {Link} from "react-router-dom"
 
 export default function Cart() {
   const [cartItems, setCartItems] = useState([
@@ -202,9 +203,11 @@ export default function Cart() {
                   </div>
 
                   <div class="flex justify-end">
+                  <Link to="/checkout">
                     <button class="block rounded bg-gray-700 px-5 py-3 text-sm text-gray-100 transition hover:bg-gray-600">
                       Checkout
                     </button>
+                    </Link>
                   </div>
                 </div>
               </div>
